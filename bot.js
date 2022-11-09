@@ -8,8 +8,13 @@ const fs = require('fs');
 const error = chalk.bold.red;
 const warn = chalk.keyword('orange');
 const debug = chalk.cyan;
+const commando = require('discord.js-commando');
+// const FuzzySet = require("fuzzyset.js");
+const Enmap = require("enmap");
 
-// const { RichEmbed } = require('discord.js');
+
+
+const sqlite = require('sqlite');
 
 const client = new CommandoClient({
     commandPrefix: prefix,
@@ -36,7 +41,7 @@ client.registry
         ['role', 'Commands that effect roles']
     ])
     .registerDefaultGroups()
-    .registerDefaultCommands()
+    .registerDefaultCommands({unknownCommand:false})
     .registerCommandsIn(path.join(__dirname, 'commands'));
 
 client.on('ready', () => {
@@ -45,29 +50,19 @@ client.on('ready', () => {
 
     //lets users know buddy has/is restarting
     client.user.setActivity('RESTARTING', { type: 'LISTENING' });
-
+    client.user.setActivity('!help for commands', {type: 'WATCHING'})
     //sets up additional activities
-    setInterval(() => {
-        const index = Math.floor(Math.random() * (activities_list.length - 1) + 1); // generates a random number between 1 and the length of the activities array list (in this case 5).
-        client.user.setActivity(activities_list[index], { type: 'WATCHING' }); // sets bot's activities to one of the phrases in the arraylist.
-    }, 10000); // Runs this every 10 seconds.
+    // setInterval(() => {
+    //     const index = Math.floor(Math.random() * (activities_list.length - 1) + 1); // generates a random number between 1 and the length of the activities array list (in this case 5).
+    //     client.user.setActivity(activities_list[index], { type: 'WATCHING' }); // sets bot's activities to one of the phrases in the arraylist.
+    // }, 10000); // Runs this every 10 seconds.
 });
 
 
 client.on('error', console.error);
 
 const activities_list = [
-    "",
-    "Short Circuit",
-    "Linda",
-    "Robot Uprising",
-    "Marxism",
-    "Human Enslavement",
-    "balls 3D",
-    "You",
-    "Ghost in the Shell",
-    "01000110  01010101 01000011 01001011  01011001 01001111 01010101 00100001",
-    "Terminator"
+   "Type `!help` for help"
 ]; // creates an arraylist containing phrases you want your bot to switch through.
 
 client
@@ -102,6 +97,9 @@ client
             blocked; ${reason}
         `);
     })
+
+
+client.points = new Enmap("points");
 
 
 //super cool Reactions!
@@ -288,5 +286,12 @@ client.on('messageReactionRemove', async (reaction, user) => {
 function GuildName(guild) {
     return "Guild" + guild.replace(/[^a-zA-Z ]/g, "");
 }
+
+
+
+client.setProvider(
+    sqlite.open(path.join(__dirname, 'settings.sqlite3')).then(db => new Commando.SQLiteProvider(db))
+).catch(console.error);
+
 
 client.login(token);

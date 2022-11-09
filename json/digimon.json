@@ -1,0 +1,1048 @@
+[
+    {
+       "name": "Koromon",
+       "imageURL": "https://digimon.shadowsmith.com/img/koromon.jpg",
+        "level": "In Training"
+    },
+    {
+       "name": "Tsunomon",
+       "imageURL": "https://digimon.shadowsmith.com/img/tsunomon.jpg",
+        "level": "In Training"
+    },
+    {
+       "name": "Yokomon",
+       "imageURL": "https://digimon.shadowsmith.com/img/yokomon.jpg",
+        "level": "In Training"
+    },
+    {
+       "name": "Motimon",
+       "imageURL": "https://digimon.shadowsmith.com/img/motimon.jpg",
+        "level": "In Training"
+    },
+    {
+       "name": "Tanemon",
+       "imageURL": "https://digimon.shadowsmith.com/img/tanemon.jpg",
+        "level": "In Training"
+    },
+    {
+       "name": "Bukamon",
+       "imageURL": "https://digimon.shadowsmith.com/img/bukamon.jpg",
+        "level": "In Training"
+    },
+    {
+       "name": "Tokomon",
+       "imageURL": "https://digimon.shadowsmith.com/img/tokomon.jpg",
+        "level": "In Training"
+    },
+    {
+       "name": "Agumon",
+       "imageURL": "https://digimon.shadowsmith.com/img/agumon.jpg",
+        "level": "Rookie"
+    },
+    {
+       "name": "Gabumon",
+       "imageURL": "https://digimon.shadowsmith.com/img/gabumon.jpg",
+        "level": "Rookie"
+    },
+    {
+       "name": "Biyomon",
+       "imageURL": "https://digimon.shadowsmith.com/img/biyomon.jpg",
+        "level": "Rookie"
+    },
+    {
+       "name": "Tentomon",
+       "imageURL": "https://digimon.shadowsmith.com/img/tentomon.jpg",
+        "level": "Rookie"
+    },
+    {
+       "name": "Palmon",
+       "imageURL": "https://digimon.shadowsmith.com/img/palmon.jpg",
+        "level": "Rookie"
+    },
+    {
+       "name": "Gomamon",
+       "imageURL": "https://digimon.shadowsmith.com/img/gomamon.jpg",
+        "level": "Rookie"
+    },
+    {
+       "name": "Patamon",
+       "imageURL": "https://digimon.shadowsmith.com/img/patamon.jpg",
+        "level": "Rookie"
+    },
+    {
+       "name": "Kuwagamon",
+       "imageURL": "https://digimon.shadowsmith.com/img/kuwagamon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Greymon",
+       "imageURL": "https://digimon.shadowsmith.com/img/greymon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Shellmon",
+       "imageURL": "https://digimon.shadowsmith.com/img/shellmon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Garurumon",
+       "imageURL": "https://digimon.shadowsmith.com/img/garurumon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Seadramon",
+       "imageURL": "https://digimon.shadowsmith.com/img/seadramon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Monochromon",
+       "imageURL": "https://digimon.shadowsmith.com/img/monochromon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Birdramon",
+       "imageURL": "https://digimon.shadowsmith.com/img/birdramon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Meramon",
+       "imageURL": "https://digimon.shadowsmith.com/img/meramon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Kabuterimon",
+       "imageURL": "https://digimon.shadowsmith.com/img/kabuterimon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Andromon",
+       "imageURL": "https://digimon.shadowsmith.com/img/andromon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "Togemon",
+       "imageURL": "https://digimon.shadowsmith.com/img/togemon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Numemon",
+       "imageURL": "https://digimon.shadowsmith.com/img/numemon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Monzaemon",
+       "imageURL": "https://digimon.shadowsmith.com/img/monzaemon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "Ikkakumon",
+       "imageURL": "https://digimon.shadowsmith.com/img/ikkakumon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Unimon",
+       "imageURL": "https://digimon.shadowsmith.com/img/unimon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Leomon",
+       "imageURL": "https://digimon.shadowsmith.com/img/leomon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Ogremon",
+       "imageURL": "https://digimon.shadowsmith.com/img/ogremon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Devimon",
+       "imageURL": "https://digimon.shadowsmith.com/img/devimon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Frigimon",
+       "imageURL": "https://digimon.shadowsmith.com/img/frigimon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Mojyamon",
+       "imageURL": "https://digimon.shadowsmith.com/img/mojyamon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Sukamon",
+       "imageURL": "https://digimon.shadowsmith.com/img/sukamon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Centarumon",
+       "imageURL": "https://digimon.shadowsmith.com/img/centarumon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Bakemon",
+       "imageURL": "https://digimon.shadowsmith.com/img/bakemon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Elecmon",
+       "imageURL": "https://digimon.shadowsmith.com/img/elecmon.jpg",
+        "level": "Rookie"
+    },
+    {
+       "name": "Botamon",
+       "imageURL": "https://digimon.shadowsmith.com/img/botamon.jpg",
+        "level": "Fresh"
+    },
+    {
+       "name": "Punimon",
+       "imageURL": "https://digimon.shadowsmith.com/img/punimon.jpg",
+        "level": "Fresh"
+    },
+    {
+       "name": "Poyomon",
+       "imageURL": "https://digimon.shadowsmith.com/img/poyomon.jpg",
+        "level": "Fresh"
+    },
+    {
+       "name": "Yuramon",
+       "imageURL": "https://digimon.shadowsmith.com/img/yuramon.jpg",
+        "level": "Fresh"
+    },
+    {
+       "name": "Angemon",
+       "imageURL": "https://digimon.shadowsmith.com/img/angemon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Whamon",
+       "imageURL": "https://digimon.shadowsmith.com/img/whamon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Drimogemon",
+       "imageURL": "https://digimon.shadowsmith.com/img/drimogemon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Etemon",
+       "imageURL": "https://digimon.shadowsmith.com/img/etemon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "Gazimon",
+       "imageURL": "https://digimon.shadowsmith.com/img/gazimon.jpg",
+        "level": "Rookie"
+    },
+    {
+       "name": "Pagumon",
+       "imageURL": "https://digimon.shadowsmith.com/img/pagumon.jpg",
+        "level": "In Training"
+    },
+    {
+       "name": "SkullGreymon",
+       "imageURL": "https://digimon.shadowsmith.com/img/skullgreymon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "Kokatorimon",
+       "imageURL": "https://digimon.shadowsmith.com/img/kokatorimon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Tyrannomon",
+       "imageURL": "https://digimon.shadowsmith.com/img/tyrannomon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Piximon",
+       "imageURL": "https://digimon.shadowsmith.com/img/piximon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "Datamon",
+       "imageURL": "https://digimon.shadowsmith.com/img/datamon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "MetalGreymon",
+       "imageURL": "https://digimon.shadowsmith.com/img/metalgreymon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "DemiDevimon",
+       "imageURL": "https://digimon.shadowsmith.com/img/demidevimon.jpg",
+        "level": "Rookie"
+    },
+    {
+       "name": "WereGarurumon",
+       "imageURL": "https://digimon.shadowsmith.com/img/weregarurumon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "Digitamamon",
+       "imageURL": "https://digimon.shadowsmith.com/img/digitamamon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "Vegiemon",
+       "imageURL": "https://digimon.shadowsmith.com/img/vegiemon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Myotismon",
+       "imageURL": "https://digimon.shadowsmith.com/img/myotismon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "Vademon",
+       "imageURL": "https://digimon.shadowsmith.com/img/vademon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "Pabumon",
+       "imageURL": "https://digimon.shadowsmith.com/img/pabumon.jpg",
+        "level": "Fresh"
+    },
+    {
+       "name": "Gekomon",
+       "imageURL": "https://digimon.shadowsmith.com/img/gekomon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Otamamon",
+       "imageURL": "https://digimon.shadowsmith.com/img/otamamon.jpg",
+        "level": "Rookie"
+    },
+    {
+       "name": "ShogunGekomon",
+       "imageURL": "https://digimon.shadowsmith.com/img/shogungekomon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "Garudamon",
+       "imageURL": "https://digimon.shadowsmith.com/img/garudamon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "Flymon",
+       "imageURL": "https://digimon.shadowsmith.com/img/flymon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Gatomon",
+       "imageURL": "https://digimon.shadowsmith.com/img/gatomon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Nanimon",
+       "imageURL": "https://digimon.shadowsmith.com/img/nanimon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Devidramon",
+       "imageURL": "https://digimon.shadowsmith.com/img/devidramon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Dokugumon",
+       "imageURL": "https://digimon.shadowsmith.com/img/dokugumon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Mammothmon",
+       "imageURL": "https://digimon.shadowsmith.com/img/mammothmon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "Gesomon",
+       "imageURL": "https://digimon.shadowsmith.com/img/gesomon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Raremon",
+       "imageURL": "https://digimon.shadowsmith.com/img/raremon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "SkullMeramon",
+       "imageURL": "https://digimon.shadowsmith.com/img/skullmeramon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "Wizardmon",
+       "imageURL": "https://digimon.shadowsmith.com/img/wizardmon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Pumpkinmon",
+       "imageURL": "https://digimon.shadowsmith.com/img/pumpkinmon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "Gotsumon",
+       "imageURL": "https://digimon.shadowsmith.com/img/gotsumon.jpg",
+        "level": "Rookie"
+    },
+    {
+       "name": "Lillymon",
+       "imageURL": "https://digimon.shadowsmith.com/img/lillymon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "Phantomon",
+       "imageURL": "https://digimon.shadowsmith.com/img/phantomon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "DarkTyrannomon",
+       "imageURL": "https://digimon.shadowsmith.com/img/darktyrannomon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Gizamon",
+       "imageURL": "https://digimon.shadowsmith.com/img/gizamon.jpg",
+        "level": "Rookie"
+    },
+    {
+       "name": "Zudomon",
+       "imageURL": "https://digimon.shadowsmith.com/img/zudomon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "MegaSeadramon",
+       "imageURL": "https://digimon.shadowsmith.com/img/megaseadramon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "Angewomon",
+       "imageURL": "https://digimon.shadowsmith.com/img/angewomon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "Tuskmon",
+       "imageURL": "https://digimon.shadowsmith.com/img/tuskmon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Snimon",
+       "imageURL": "https://digimon.shadowsmith.com/img/snimon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "MegaKabuterimon",
+       "imageURL": "https://digimon.shadowsmith.com/img/megakabuterimon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "MagnaAngemon",
+       "imageURL": "https://digimon.shadowsmith.com/img/magnaangemon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "VenomMyotismon",
+       "imageURL": "https://digimon.shadowsmith.com/img/venommyotismon.jpg",
+        "level": "Mega"
+    },
+    {
+       "name": "WarGreymon",
+       "imageURL": "https://digimon.shadowsmith.com/img/wargreymon.jpg",
+        "level": "Mega"
+    },
+    {
+       "name": "MetalGarurumon",
+       "imageURL": "https://digimon.shadowsmith.com/img/metalgarurumon.jpg",
+        "level": "Mega"
+    },
+    {
+       "name": "Nyaromon",
+       "imageURL": "https://digimon.shadowsmith.com/img/nyaromon.jpg",
+        "level": "In Training"
+    },
+    {
+       "name": "Salamon",
+       "imageURL": "https://digimon.shadowsmith.com/img/salamon.jpg",
+        "level": "Rookie"
+    },
+    {
+       "name": "Parrotmon",
+       "imageURL": "https://digimon.shadowsmith.com/img/parrotmon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "Chuumon",
+       "imageURL": "https://digimon.shadowsmith.com/img/chuumon.jpg",
+        "level": "Rookie"
+    },
+    {
+       "name": "MetalSeadramon",
+       "imageURL": "https://digimon.shadowsmith.com/img/metalseadramon.jpg",
+        "level": "Mega"
+    },
+    {
+       "name": "Machinedramon",
+       "imageURL": "https://digimon.shadowsmith.com/img/machinedramon.jpg",
+        "level": "Mega"
+    },
+    {
+       "name": "Piedmon",
+       "imageURL": "https://digimon.shadowsmith.com/img/piedmon.jpg",
+        "level": "Mega"
+    },
+    {
+       "name": "Puppetmon",
+       "imageURL": "https://digimon.shadowsmith.com/img/puppetmon.jpg",
+        "level": "Mega"
+    },
+    {
+       "name": "Scorpiomon",
+       "imageURL": "https://digimon.shadowsmith.com/img/scorpiomon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "Divermon",
+       "imageURL": "https://digimon.shadowsmith.com/img/divermon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "Kiwimon",
+       "imageURL": "https://digimon.shadowsmith.com/img/kiwimon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Mushroomon",
+       "imageURL": "https://digimon.shadowsmith.com/img/mushroomon.jpg",
+        "level": "Rookie"
+    },
+    {
+       "name": "Blossomon",
+       "imageURL": "https://digimon.shadowsmith.com/img/blossomon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "Floramon",
+       "imageURL": "https://digimon.shadowsmith.com/img/floramon.jpg",
+        "level": "Rookie"
+    },
+    {
+       "name": "Deramon",
+       "imageURL": "https://digimon.shadowsmith.com/img/deramon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "Cherrymon",
+       "imageURL": "https://digimon.shadowsmith.com/img/cherrymon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "Garbagemon",
+       "imageURL": "https://digimon.shadowsmith.com/img/garbagemon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "MetalEtemon",
+       "imageURL": "https://digimon.shadowsmith.com/img/metaletemon.jpg",
+        "level": "Mega"
+    },
+    {
+       "name": "SaberLeomon",
+       "imageURL": "https://digimon.shadowsmith.com/img/saberleomon.jpg",
+        "level": "Mega"
+    },
+    {
+       "name": "RedVegiemon",
+       "imageURL": "https://digimon.shadowsmith.com/img/redvegiemon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Mekanorimon",
+       "imageURL": "https://digimon.shadowsmith.com/img/mekanorimon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Tankmon",
+       "imageURL": "https://digimon.shadowsmith.com/img/tankmon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Hagurumon",
+       "imageURL": "https://digimon.shadowsmith.com/img/hagurumon.jpg",
+        "level": "Rookie"
+    },
+    {
+       "name": "WaruMonzaemon",
+       "imageURL": "https://digimon.shadowsmith.com/img/warumonzaemon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "LadyDevimon",
+       "imageURL": "https://digimon.shadowsmith.com/img/ladydevimon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "Vilemon",
+       "imageURL": "https://digimon.shadowsmith.com/img/vilemon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Apocalymon",
+       "imageURL": "https://digimon.shadowsmith.com/img/apocalymon.jpg",
+        "level": "Mega"
+    },
+    {
+       "name": "Kunemon",
+       "imageURL": "https://digimon.shadowsmith.com/img/kunemon.jpg",
+        "level": "Rookie"
+    },
+    {
+       "name": "Musyamon",
+       "imageURL": "https://digimon.shadowsmith.com/img/musyamon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Starmon",
+       "imageURL": "https://digimon.shadowsmith.com/img/starmon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "HerculesKabuterimon",
+       "imageURL": "https://digimon.shadowsmith.com/img/herculeskabuterimon.jpg",
+        "level": "Mega"
+    },
+    {
+       "name": "Candlemon",
+       "imageURL": "https://digimon.shadowsmith.com/img/candlemon.jpg",
+        "level": "Rookie"
+    },
+    {
+       "name": "Hanumon",
+       "imageURL": "https://digimon.shadowsmith.com/img/hanumon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Kokuwamon",
+       "imageURL": "https://digimon.shadowsmith.com/img/kokuwamon.jpg",
+        "level": "Rookie"
+    },
+    {
+       "name": "Revolvermon",
+       "imageURL": "https://digimon.shadowsmith.com/img/revolvermon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Plesiomon",
+       "imageURL": "https://digimon.shadowsmith.com/img/plesiomon.jpg",
+        "level": "Mega"
+    },
+    {
+       "name": "Megadramon",
+       "imageURL": "https://digimon.shadowsmith.com/img/megadramon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "BlueMeramon",
+       "imageURL": "https://digimon.shadowsmith.com/img/bluemeramon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Magnadramon",
+       "imageURL": "https://digimon.shadowsmith.com/img/magnadramon.jpg",
+        "level": "Mega"
+    },
+    {
+       "name": "Gorillamon",
+       "imageURL": "https://digimon.shadowsmith.com/img/gorillamon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Syakomon",
+       "imageURL": "https://digimon.shadowsmith.com/img/syakomon.jpg",
+        "level": "Rookie"
+    },
+    {
+       "name": "MarineAngemon",
+       "imageURL": "https://digimon.shadowsmith.com/img/marineangemon.jpg",
+        "level": "Mega"
+    },
+    {
+       "name": "Boltmon",
+       "imageURL": "https://digimon.shadowsmith.com/img/boltmon.jpg",
+        "level": "Mega"
+    },
+    {
+       "name": "Mamemon",
+       "imageURL": "https://digimon.shadowsmith.com/img/mamemon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "ExTyrannomon",
+       "imageURL": "https://digimon.shadowsmith.com/img/extyrannomon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "Veedramon",
+       "imageURL": "https://digimon.shadowsmith.com/img/veedramon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "AeroVeedramon",
+       "imageURL": "https://digimon.shadowsmith.com/img/aeroveedramon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "Phoenixmon",
+       "imageURL": "https://digimon.shadowsmith.com/img/phoenixmon.jpg",
+        "level": "Mega"
+    },
+    {
+       "name": "Betamon",
+       "imageURL": "https://digimon.shadowsmith.com/img/betamon.jpg",
+        "level": "Rookie"
+    },
+    {
+       "name": "Guardromon",
+       "imageURL": "https://digimon.shadowsmith.com/img/guardromon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Penguinmon",
+       "imageURL": "https://digimon.shadowsmith.com/img/penguinmon.jpg",
+        "level": "Rookie"
+    },
+    {
+       "name": "PlatinumSukamon",
+       "imageURL": "https://digimon.shadowsmith.com/img/platinumsukamon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Psychemon",
+       "imageURL": "https://digimon.shadowsmith.com/img/psychemon.jpg",
+        "level": "Rookie"
+    },
+    {
+       "name": "Tsukaimon",
+       "imageURL": "https://digimon.shadowsmith.com/img/tsukaimon.jpg",
+        "level": "Rookie"
+    },
+    {
+       "name": "ModokiBetamon",
+       "imageURL": "https://digimon.shadowsmith.com/img/modokibetamon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Saberdramon",
+       "imageURL": "https://digimon.shadowsmith.com/img/saberdramon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "SnowAgumon",
+       "imageURL": "https://digimon.shadowsmith.com/img/snowagumon.jpg",
+        "level": "Rookie"
+    },
+    {
+       "name": "Icemon",
+       "imageURL": "https://digimon.shadowsmith.com/img/icemon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Airdramon",
+       "imageURL": "https://digimon.shadowsmith.com/img/airdramon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "MetalTyrannomon",
+       "imageURL": "https://digimon.shadowsmith.com/img/metaltyrannomon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "Akatorimon",
+       "imageURL": "https://digimon.shadowsmith.com/img/akatorimon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Geremon",
+       "imageURL": "https://digimon.shadowsmith.com/img/geremon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Vermilimon",
+       "imageURL": "https://digimon.shadowsmith.com/img/vermilimon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "Meteormon",
+       "imageURL": "https://digimon.shadowsmith.com/img/meteormon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "Jijimon",
+       "imageURL": "https://digimon.shadowsmith.com/img/jijimon.jpg",
+        "level": "Mega"
+    },
+    {
+       "name": "Babamon",
+       "imageURL": "https://digimon.shadowsmith.com/img/babamon.jpg",
+        "level": "Mega"
+    },
+    {
+       "name": "FlareRizamon",
+       "imageURL": "https://digimon.shadowsmith.com/img/flarerizamon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Thunderballmon",
+       "imageURL": "https://digimon.shadowsmith.com/img/thunderballmon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Muchomon",
+       "imageURL": "https://digimon.shadowsmith.com/img/muchomon.jpg",
+        "level": "Rookie"
+    },
+    {
+       "name": "Goldramon",
+       "imageURL": "https://digimon.shadowsmith.com/img/goldramon.jpg",
+        "level": "Mega"
+    },
+    {
+       "name": "Soulmon",
+       "imageURL": "https://digimon.shadowsmith.com/img/soulmon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Rosemon",
+       "imageURL": "https://digimon.shadowsmith.com/img/rosemon.jpg",
+        "level": "Mega"
+    },
+    {
+       "name": "Piddomon",
+       "imageURL": "https://digimon.shadowsmith.com/img/piddomon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Gigadramon",
+       "imageURL": "https://digimon.shadowsmith.com/img/gigadramon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "Cyberdramon",
+       "imageURL": "https://digimon.shadowsmith.com/img/cyberdramon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "SkullSatamon",
+       "imageURL": "https://digimon.shadowsmith.com/img/skullsatamon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "Milleniummon",
+       "imageURL": "https://digimon.shadowsmith.com/img/milleniummon.jpg",
+        "level": "Mega"
+    },
+    {
+       "name": "Daemon",
+       "imageURL": "https://digimon.shadowsmith.com/img/daemon.jpg",
+        "level": "Mega"
+    },
+    {
+       "name": "KingEtemon",
+       "imageURL": "https://digimon.shadowsmith.com/img/kingetemon.jpg",
+        "level": "Mega"
+    },
+    {
+       "name": "Chibomon",
+       "imageURL": "https://digimon.shadowsmith.com/img/chibomon.jpg",
+        "level": "Fresh"
+    },
+    {
+       "name": "Pururumon",
+       "imageURL": "https://digimon.shadowsmith.com/img/pururumon.jpg",
+        "level": "Fresh"
+    },
+    {
+       "name": "Tsubumon",
+       "imageURL": "https://digimon.shadowsmith.com/img/tsubumon.jpg",
+        "level": "Fresh"
+    },
+    {
+       "name": "DemiVeemon",
+       "imageURL": "https://digimon.shadowsmith.com/img/demiveemon.jpg",
+        "level": "Training"
+    },
+    {
+       "name": "Poromon",
+       "imageURL": "https://digimon.shadowsmith.com/img/poromon.jpg",
+        "level": "Training"
+    },
+    {
+       "name": "Upamon",
+       "imageURL": "https://digimon.shadowsmith.com/img/upamon.jpg",
+        "level": "Training"
+    },
+    {
+       "name": "Hawkmon",
+       "imageURL": "https://digimon.shadowsmith.com/img/hawkmon.jpg",
+        "level": "Rookie"
+    },
+    {
+       "name": "Armadillomon",
+       "imageURL": "https://digimon.shadowsmith.com/img/armadillomon.jpg",
+        "level": "Rookie"
+    },
+    {
+       "name": "Wormmon",
+       "imageURL": "https://digimon.shadowsmith.com/img/wormmon.jpg",
+        "level": "Rookie"
+    },
+    {
+       "name": "Flamedramon",
+       "imageURL": "https://digimon.shadowsmith.com/img/flamedramon.jpg",
+        "level": "Armor"
+    },
+    {
+       "name": "Raidramon",
+       "imageURL": "https://digimon.shadowsmith.com/img/raidramon.jpg",
+        "level": "Armor"
+    },
+    {
+       "name": "Magnamon",
+       "imageURL": "https://digimon.shadowsmith.com/img/maganamon.jpg",
+        "level": "Armor"
+    },
+    {
+       "name": "Sethmon",
+       "imageURL": "https://digimon.shadowsmith.com/img/sethmon.jpg",
+        "level": "Armor"
+    },
+    {
+       "name": "Halsemon",
+       "imageURL": "https://digimon.shadowsmith.com/img/halsemon.jpg",
+        "level": "Armor"
+    },
+    {
+       "name": "Shurimon",
+       "imageURL": "https://digimon.shadowsmith.com/img/shurimon.jpg",
+        "level": "Armor"
+    },
+    {
+       "name": "Toucanmon",
+       "imageURL": "https://digimon.shadowsmith.com/img/toucanmon.jpg",
+        "level": "Armor"
+    },
+    {
+       "name": "Submarimon",
+       "imageURL": "https://digimon.shadowsmith.com/img/submarimon.jpg",
+        "level": "Armor"
+    },
+    {
+       "name": "Bucchiemon",
+       "imageURL": "https://digimon.shadowsmith.com/img/bucchiemon.jpg",
+        "level": "Armor"
+    },
+    {
+       "name": "Stegomon",
+       "imageURL": "https://digimon.shadowsmith.com/img/stegomon.jpg",
+        "level": "Armor"
+    },
+    {
+       "name": "Pegasusmon",
+       "imageURL": "https://digimon.shadowsmith.com/img/pegasusmon.jpg",
+        "level": "Armor"
+    },
+    {
+       "name": "Nefertimon",
+       "imageURL": "https://digimon.shadowsmith.com/img/nefertimon.jpg",
+        "level": "Armor"
+    },
+    {
+       "name": "ExVeemon",
+       "imageURL": "https://digimon.shadowsmith.com/img/exveemon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Stingmon",
+       "imageURL": "https://digimon.shadowsmith.com/img/stingmon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Aquillamon",
+       "imageURL": "https://digimon.shadowsmith.com/img/aquillamon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Ankylomon",
+       "imageURL": "https://digimon.shadowsmith.com/img/ankylomon.jpg",
+        "level": "Champion"
+    },
+    {
+       "name": "Paildramon",
+       "imageURL": "https://digimon.shadowsmith.com/img/paildramon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "Dinobeemon",
+       "imageURL": "https://digimon.shadowsmith.com/img/dinobeemon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "Silphymon",
+       "imageURL": "https://digimon.shadowsmith.com/img/silphymon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "Shakkoumon",
+       "imageURL": "https://digimon.shadowsmith.com/img/shakkoumon.jpg",
+        "level": "Ultimate"
+    },
+    {
+       "name": "Imperialdramon",
+       "imageURL": "https://digimon.shadowsmith.com/img/imperialdramon.jpg",
+        "level": "Mega"
+    },
+    {
+       "name": "GranKuwagamon",
+       "imageURL": "https://digimon.shadowsmith.com/img/grankuwagamon.jpg",
+        "level": "Mega"
+    },
+    {
+       "name": "Valkyrimon",
+       "imageURL": "https://digimon.shadowsmith.com/img/valkyrimon.jpg",
+        "level": "Mega"
+    },
+    {
+       "name": "Vikemon",
+       "imageURL": "https://digimon.shadowsmith.com/img/vikemon.jpg",
+        "level": "Mega"
+    },
+    {
+       "name": "Seraphimon",
+       "imageURL": "https://digimon.shadowsmith.com/img/seraphimon.jpg",
+        "level": "Mega"
+    },
+    {
+       "name": "Zhuqiaomon",
+       "imageURL": "https://digimon.shadowsmith.com/img/zhuqiaomon.jpg",
+        "level": "Mega"
+    },
+    {
+       "name": "Azulongmon",
+       "imageURL": "https://digimon.shadowsmith.com/img/azulongmon.jpg",
+        "level": "Mega"
+    },
+    {
+       "name": "Baihumon",
+       "imageURL": "https://digimon.shadowsmith.com/img/baihumon.jpg",
+        "level": "Mega"
+    },
+    {
+       "name": "Mokumon",
+       "imageURL": "https://digimon.shadowsmith.com/img/mokumon.jpg",
+        "level": "Fresh"
+    },
+    {
+       "name": "Omnimon",
+       "imageURL": "https://digimon.shadowsmith.com/img/omnimon.jpg",
+        "level": "Mega"
+    }
+
+]
