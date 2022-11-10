@@ -1,105 +1,66 @@
-const Discord = require('discord.js');
-const { CommandoClient } = require('discord.js-commando');
-const path = require('path');
-const botUtils = require('bot-utils');
-const { token, prefix } = require('./config.json')
-const chalk = require('chalk');
-const fs = require('fs');
-const error = chalk.bold.red;
-const warn = chalk.keyword('orange');
-const debug = chalk.cyan;
-const commando = require('discord.js-commando');
-// const FuzzySet = require("fuzzyset.js");
+
+// const botUtils = import('bot-utils');
+// 
+
+// const error = chalk.bold.red;
+// const debug = chalk.cyan;
 const Enmap = require("enmap");
 
-
-
-const sqlite = require('sqlite');
-
-const client = new CommandoClient({
-    commandPrefix: prefix,
-    owner: [
-        '162215263335350272', //joe
-        '93420059858305024' //Arbiter
-
+// Require the necessary discord.js classes
+const fs = require('node:fs');
+const path = require('node:path');
+const { Client, Events, Collection, GatewayIntentBits } = require('discord.js');
+const { token } = require('./config.json');
+const client = new Client({ 
+    intents: [
+        GatewayIntentBits.Guilds,
+        GatewayIntentBits.GuildMessages,
+        GatewayIntentBits.MessageContent,
+        GatewayIntentBits.GuildMembers,
     ],
-    disableEveryone: false,
-    disableHere: false,
-    invite: 'https://discord.gg/NpJHymX',
-    unknownCommandResponse: false
-});
-
-//registers command groups
-client.registry
-    .registerDefaultTypes()
-    .registerGroups([
-        ['basic', 'Our First Command Group'],
-        ['fun', 'Commands for fun!'],
-        ['games', 'Commands for Dota and other game integrations'],
-        ['general', 'Commands for general use'],
-        ['moderator', 'Commands for moderator functions'],
-        ['role', 'Commands that effect roles']
-    ])
-    .registerDefaultGroups()
-    .registerDefaultCommands({unknownCommand:false})
-    .registerCommandsIn(path.join(__dirname, 'commands'));
-
-client.on('ready', () => {
-    console.log(chalk.magenta(`Logged in as ${client.user.tag}!`));
-    console.log(chalk.green('I am ready!'));
-
-    //lets users know buddy has/is restarting
-    client.user.setActivity('RESTARTING', { type: 'LISTENING' });
-    client.user.setActivity('!help for commands', {type: 'WATCHING'})
-    //sets up additional activities
-    // setInterval(() => {
-    //     const index = Math.floor(Math.random() * (activities_list.length - 1) + 1); // generates a random number between 1 and the length of the activities array list (in this case 5).
-    //     client.user.setActivity(activities_list[index], { type: 'WATCHING' }); // sets bot's activities to one of the phrases in the arraylist.
-    // }, 10000); // Runs this every 10 seconds.
-});
+ });
+const eventsPath = path.join(__dirname, 'events');
+const eventFiles = fs.readdirSync(eventsPath).filter(file => file.endsWith('.js'));
+const commandsPath = path.join(__dirname, 'commands');
+const commandFiles = fs.readdirSync(commandsPath).filter(file => file.endsWith('.js'));
 
 
-client.on('error', console.error);
 
-const activities_list = [
-   "Type `!help` for help"
-]; // creates an arraylist containing phrases you want your bot to switch through.
+for (const file of eventFiles) {
+    const filePath = path.join(eventsPath, file);
+    const event = require(filePath);
+    if (event.once) {
+        client.once(event.name, (...args) => event.execute(...args));
+    } else {
+        client.on(event.name, (...args) => event.execute(...args));
+    }
+} 
 
-client
-    .on('error', e => console.error(error(e)))
-    .on('warn', e => console.warn(warn(e)))
-    .on('debug', e => console.log(debug(e)))
-    .on('ready', () => {
+client.commands = new Collection();
 
-    })
-    .on('disconnect', () => console.warn('Disconnected!'))
-    .on('reconnecting', () => console.warn('Reconnecting...'))
-    .on('commandError', (cmd, err) => {
-        if (err instanceof commando.FriendlyError) return;
-        console.error(`Error in command ${cmd.groupID}:${cmd.memberName}`, err);
-    })
-    //custom errors list
-    .on('unknownCommand', (msg, reason) => {
-        const errors_list = [
-            "I don't know what you want",
-            "Expected ```something intelligent``` Got ```whatever that is```",
-            "I... Yeah I don't know what to do with that.",
-            "Just.... No.",
-            "You may be asking yourself, did that command work? And the answer, emphatically, is No.",
-            "I don't know what you want, flesh bag."
-        ]; // nice error message list.
-        const index = Math.floor(Math.random() * (errors_list.length - 1) + 1);
-        msg.channel.send(errors_list[index])
-    })
-    .on('commandBlocked', (msg, reason) => {
-        console.log(oneLine `
-            Command ${msg.command ? `${msg.command.groupID}:${msg.command.memberName}` : ''}
-            blocked; ${reason}
-        `);
-    })
+for (const file of commandFiles) {
+    const filePath = path.join(commandsPath, file);
+    const command = require(filePath);
+    // Set a new item in the Collection with the key as the command name and the value as the exported module
+    if ('data' in command && 'execute' in command) {
+        client.commands.set(command.data.name, command);
+    } else {
+        console.log(`[WARNING] The command at ${filePath} is missing a required "data" or "execute" property.`);
+    }
+}
+
+client.login(token);
 
 
-client.points = new Enmap("points");
+
+
+
+
+
+
+
+
+
 
 
 //super cool Reactions!
@@ -289,9 +250,5 @@ function GuildName(guild) {
 
 
 
-client.setProvider(
-    sqlite.open(path.join(__dirname, 'settings.sqlite3')).then(db => new Commando.SQLiteProvider(db))
-).catch(console.error);
 
 
-client.login(token);
