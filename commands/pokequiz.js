@@ -33,7 +33,7 @@ module.exports = {
             gotCorrectAnswer = true;
             console.log(`winner ${winner}`)
             // console.log(`commander ${key}`)
-            interaction.editReply(`***Winner!. ${pokem.name} was correct.***`);
+            interaction.channel.send(`***Winner!. ${pokem.name} was correct.***`);
         });
        	
         //collector.on('collect', m => collector.stop('end'));
@@ -41,7 +41,7 @@ module.exports = {
         collector.on('end', m => {
             if (!gotCorrectAnswer) {
 
-                interaction.editReply(`***The answer was ${pokem.name}!***`);
+                interaction.channel.send(`***The answer was ${pokem.name}!***`);
             }
         });           
   
